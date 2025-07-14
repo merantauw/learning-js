@@ -1,0 +1,25 @@
+.list{
+    column-count: 3;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block1,
+.block2 {
+    width: 250px;
+    height: 100px;
+}
+.block1{
+    background-color: aqua;
+}
+.block2{
+    background-color: darkorchid;
+}
+
